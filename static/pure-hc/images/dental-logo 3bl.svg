@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960.08 152.3">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: BigCaslon-Medium, 'Big Caslon';
+        font-size: 121.5px;
+        font-weight: 500;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(3.89 104.79)"><tspan x="0" y="0">Aries Dental Clinic</tspan></text>
+  </g>
+</svg>

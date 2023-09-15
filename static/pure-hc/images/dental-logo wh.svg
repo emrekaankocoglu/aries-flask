@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 913.96 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffcf8;
+        font-family: BigCaslon-Medium, 'Big Caslon';
+        font-size: 323.42px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(22.43 278.95)"><tspan x="0" y="0">Aries</tspan></text>
+  <text class="cls-1" transform="translate(0 575.56)"><tspan x="0" y="0">Dental</tspan></text>
+  <text class="cls-1" transform="translate(5.28 873.54)"><tspan x="0" y="0">Clinic</tspan></text>
+</svg>

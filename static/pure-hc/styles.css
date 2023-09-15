@@ -1,0 +1,117 @@
+.header-2 {
+    height: 100%; 
+    background-image: url("images/img_a.jpg");
+    background-color: #675e5e;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 1s ease;
+    animation: changeBackground 20s infinite; /* Adjust duration as needed */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  @keyframes changeBackground {
+    0% {
+      background-image: url("images/img_a.jpg");
+    }
+    20% {
+      background-image: url("images/img_b.jpg");
+    }
+    80% {
+      background-image: url("images/img_b.jpg");
+    }
+    100% {
+      background-image: url("images/img_a.jpg");
+    }
+  }
+
+  .services {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    background-color: #495958;
+  }
+  
+  .card-services {
+    /* Add any card-specific styles here */
+  }
+  
+  .card-transparent {
+    border: none !important;
+    background-color: transparent !important;
+  }
+  
+  /* Add any additional custom styles here */
+  .text-grey {
+    color: grey;
+  }
+  
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #d4967d !important;
+}
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    background-color: #d4967d;
+    border : none !important;
+    border-radius: 0 !important; 
+    color: white;
+    padding: 2vh 10vw !important;
+    display: inline-block;
+    font-size: 1em !important;
+    transition: opacity 0.2s; 
+  }
+  
+  /* Styles for the button on hover */
+  .btn-primary:hover {
+    opacity: 0.8; /* Set the desired opacity value (0 to 1) for the hover state */
+}
+
+
+.welcome {
+
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+
+}
+
+.images-contain {
+    object-fit: contain;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid #d4967da7 !important;
+    border-right: 1px solid #d4967da7 !important;
+    box-shadow: none !important;
+}
+
+.form-label {
+    color: #444444 !important;
+    opacity: 0.8;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Adjust this value to control the vertical position */
+  right: 20px; /* Adjust this value to control the horizontal position */
+  display: flex !important; 
+  justify-content: center !important;
+  background-color: rgba(201, 255, 201, 0.384); /*Change the color as needed */
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 9999; /* Ensure it appears on top of other content */
+  opacity: 0.7;
+}
