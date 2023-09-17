@@ -4,7 +4,7 @@
     <style>
       .cls-1 {
         fill: #231f20;
-        font-family: BigCaslon-Medium, 'Big Caslon';
+        font-family: "big-caslon-fb", serif;
         font-size: 323.42px;
         font-weight: 500;
       }
