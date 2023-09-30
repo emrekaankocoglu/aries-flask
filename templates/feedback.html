@@ -38,51 +38,39 @@
       </nav>
 
     <div class="row d-flex justify-content-center mb-4 mt-3">
-        <div class="col d-flex justify-content-center p-5">
-
-            <div class="text-black mt-3">
-            <h4 class="display-4 mb-3">Bize ulaşın.</h4>
-            <p> <a href="https://goo.gl/maps/ZS4mnz4v3d4JsHVF6" style="color: #444444;" >  Konutkent Mah. 3028. Cadde SMK Tower 19. Kat No:6/94, 06810 Çankaya/Ankara </a> </p>
-            <p><a href="tel:+903125122274" style="color: #444444;" >
-              <i class="fa-solid fa-phone fa-xl" style="color: #444444;"></i>
-              +90 312 512 22 74 </a></p>
-            <p><a href="https://wa.me/903125122274" style="color: #444444;" >
-              <i class="fa-brands fa-whatsapp fa-xl" style="color: #4dc247;"></i>
-              +90 312 512 22 74 </a></p>
-            <p><a href="https://www.instagram.com/ariesdentalclinic/" style="color: #444444;" >
-                <i class="fa-brands fa-instagram fa-xl" style="color: #444444;"></i>
-                @ariesdentalclinic </a></p>
-            <p><a href="mailto:info@ariesdent.com" style="color: #444444;" >
-                  <i class="fa fa-envelope fa-xl" style="color: #444444;"></i>
-                  info@ariesdent.com </a></p>
+        <div class="col d-flex flex-column justify-content-center p-5">
+            <div class="row">
+                <h4 class="display-4 mb-5">Görüşleriniz bizim için önemli!</h4>
             </div>
-
-        </div>
-        <div class="col d-flex justify-content-center p-5">
-
             <div class="text-black p-2">
-              <form action="/contact.html" method="POST">
+              <form method="POST">
                 <div class="row">
-                    <div class="col p-0 mr-1">
-                        <label for="form-name" class="form-label">Adınız*</label>
-                        <input type="text" class="form-control" name="name" id="form-name"required/>
+                    <div class="col p-0 mr-1 justify-content-center">
+                        <label for="form-rating-service" class="form-label">Hizmetimizi nasıl değerlendirirsiniz?</label>
+                        <div class="starrating d-flex justify-content-end flex-row-reverse">
+                            <input type="radio" id="star5" name="rating-service" value="5" /><label for="star5" title="5 star">5</label>
+                            <input type="radio" id="star4" name="rating-service" value="4" /><label for="star4" title="4 star">4</label>
+                            <input type="radio" id="star3" name="rating-service" value="3" /><label for="star3" title="3 star">3</label>
+                            <input type="radio" id="star2" name="rating-service" value="2" /><label for="star2" title="2 star">2</label>
+                            <input type="radio" id="star1" name="rating-service" value="1" /><label for="star1" title="1 star">1</label>
+                        </div>
                     </div>
-                    <div class="col p-0 ml-1">
-                        <label for="form-name" class="form-label">Soyadınız*</label>
-                        <input type="text" class="form-control" name="surname" id="form-surname" required/>
+                    
+                    <div class="col p-0 mr-1 align-items-center">
+                        <label for="form-rating-results" class="form-label">Sonuçlardan memnun kaldınız mı?</label>
+                        <div class="starrating d-flex justify-content-end flex-row-reverse">
+                            <input type="radio" id="star2-5" name="rating-results" value="5" /><label for="star2-5" title="5 star">5</label>
+                            <input type="radio" id="star2-4" name="rating-results" value="4" /><label for="star2-4" title="4 star">4</label>
+                            <input type="radio" id="star2-3" name="rating-results" value="3" /><label for="star2-3" title="3 star">3</label>
+                            <input type="radio" id="star2-2" name="rating-results" value="2" /><label for="star2-2" title="2 star">2</label>
+                            <input type="radio" id="star2-1" name="rating-results" value="1" /><label for="star2-1" title="1 star">1</label>
+                        </div>
                     </div>
-                </div>
-                <div class="row mt-3 ">
-                    <label for="form-phone" class="form-label">Telefon Numaranız*</label>
-                    <input type="text" class="form-control" name="phone" id="form-phone" required/>
-                </div>
+              </div>
+
                 <div class="row mt-3">
-                    <label for="form-email" class="form-label">E-Posta Adresiniz</label>
-                    <input type="text" class="form-control" name="email" id="form-email"/>
-                </div>
-                <div class="row mt-3">
-                    <label for="form-message" class="form-label">Mesajınız</label>
-                    <textarea class="form-control" name="message" id="form-message" rows="2"></textarea>
+                    <label for="form-message" class="form-label">Görüş ve Önerilieriniz</label>
+                    <textarea class="form-control" name="message" id="form-message" rows="4"></textarea>
                 </div>
                 <div class="row mt-3">
                     <button class="btn btn-primary" style="width: 100% !important;">Gönder</button>

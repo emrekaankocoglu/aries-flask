@@ -115,3 +115,48 @@
   z-index: 9999; /* Ensure it appears on top of other content */
   opacity: 0.7;
 }
+
+
+
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before { 
+  content: "\f005"; /* Star */
+  margin: 2px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  display: inline-block; 
+}
+
+.starrating > label
+{
+  color: #444444; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  } /* Set yellow color when star hover */
+
+.starrating1 > input {display: none;}  /* Remove radio buttons */
+
+.starrating1 > label:before { 
+  content: "\f005"; /* Star */
+  margin: 2px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  display: inline-block; 
+}
+
+.starrating1 > label
+{
+  color: #444444; /* Start color when not clicked */
+}
+
+.starrating1 > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating1 > input:hover ~ label
+{ color: #ffca08 ;  } /* Set yellow color when star hover */
